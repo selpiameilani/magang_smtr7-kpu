@@ -1,0 +1,1 @@
+# magang_smtr7-kpu
