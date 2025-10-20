@@ -1,0 +1,59 @@
+name: project_kpu
+description: Sistem Informasi Buku Tamu dan Pengamanan KPU
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite_common_ffi: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  camera: ^0.10.5+5
+  camera_windows: ^0.2.1+8
+  cupertino_icons: ^1.0.2
+  permission_handler: ^11.0.1
+  excel: ^4.0.6
+  intl: ^0.18.0
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.4
+  pdf: ^3.11.0
+  printing: ^5.12.0
+  video_player: ^2.10.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter_launcher_icons:
+  image_path: "assets/logo_kpu.png"
+  android: true
+  ios: false
+  windows:
+    generate: true
+    image_path: "assets/logo_kpu.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/logo_kpu.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo_kpu.png
+    - assets/template rekap.pdf
+    - assets/template sertitu.pdf
+    - assets/banklapor.pdf
+    - assets/penyu.png
+    - assets/vidio_latar.mp4
